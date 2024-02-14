@@ -1,0 +1,22 @@
+.footer_logo {
+    width: 80px;
+}
+
+.footer .col-lg-2 {
+    width: fit-content;
+}
+
+.footer_headings {
+    color: var(--primary);
+    padding-bottom: 18px;
+}
+
+.footer_headings~div>a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer_headings~div>a:hover {
+    color: var(--primary);
+    transition: .2s;
+}

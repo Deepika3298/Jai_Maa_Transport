@@ -1,0 +1,44 @@
+.contact_form_padding {
+    padding: 5rem 0 5rem 6rem;
+}
+
+form {
+    margin-top: 4.25rem;
+}
+
+form input,
+form textarea,
+form select {
+    outline: 0;
+    width: 100%;
+    font-size: 14px;
+    border-width: 0 0 2px 0;
+}
+
+form>*:not(:last-child) {
+    margin-bottom: 2.75rem;
+}
+
+.box1_contact_form {
+    position: absolute;
+    height: 100%;
+    background-color: var(--dGreen);
+    width: 10%;
+    top: 0;
+    right: 0;
+}
+
+.contact_image {
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 991px) {
+    .contact_form_padding {
+        padding: 3rem 2rem;
+    }
+
+    .box1_contact_form {
+        display: none;
+    }
+}

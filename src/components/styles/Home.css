@@ -1,0 +1,118 @@
+.coverIamge {
+    width: 100%;
+}
+
+.backgroundCoverIamge {
+    background-repeat: no-repeat;
+    height: 43vmax;
+    /* max-height: 387px; */
+    /* min-height: 194px; */
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundCoverIamge>div {
+    position: relative;
+    top: 25%;
+}
+
+.backgroundCoverIamge .heading1 {
+    font-size: 72px;
+    color: #FFFF;
+    font-weight: 700;
+}
+
+.backgroundCoverIamge .heading2 {
+    color: var(--primary);
+    font-weight: 700;
+    padding: 0 1rem;
+}
+
+.backgroundCoverIamge a {
+    background-color: var(--primary);
+    color: var(--secondary) !important;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 16px !important;
+    border: 2px solid var(--dGreen);
+    border-radius: 5px;
+    font-family: inherit;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.backgroundCoverIamge a:hover {
+    background-color: var(--secondary);
+    color: var(--primary) !important;
+    transition: .2s;
+}
+
+.img_container_about_us .img1 {
+    width: 45%;
+}
+
+.img_container_about_us .img2 {
+    width: 50%;
+    bottom: 0;
+    right: 20%;
+    z-index: -1;
+}
+
+.img_container_about_us>div {
+    background-color: var(--primary);
+    display: inline-block;
+    padding: 1rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+
+.our_clients {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.our_clients div {
+    max-width: 8rem;
+    padding-left: 2rem;
+}
+
+.our_clients img {
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .backgroundCoverIamge {
+        height: 63vmax;
+    }
+
+    .backgroundCoverIamge .heading1 {
+        font-size: 48px;
+    }
+
+    .backgroundCoverIamge>div {
+        top: 15%;
+    }
+
+    .img_container_about_us .img1 {
+        width: 100%;
+    }
+
+    .img_container_about_us .img2 {
+        display: none;
+    }
+
+    .img_container_about_us div{
+        display: none;
+    }
+
+    .our_clients div {
+        max-width: 6rem;
+        padding-left: 2rem;
+        padding-top: 1rem;
+    }
+}
